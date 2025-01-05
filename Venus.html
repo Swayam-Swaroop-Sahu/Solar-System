@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>     
+        <title>Venus</title>
+        <style>
+            body{           
+                font-size: 25px;
+                font-weight: 600;
+                color: rgb(225, 218, 4);
+                height: 100vh;
+                margin: 50px;
+                background: url(Venusbg.jpeg),no-repeat center center;
+                background-size: cover;
+                animation: moveBackground 150s linear infinite;
+                }
+            @keyframes moveBackground{
+                0%{
+                    background-position: 0 0;
+                }
+                100%{
+                    background-position: 100% 100%;
+                }
+            }
+            h1{
+                text-align: center;
+                margin-top: 5%;
+                font-size: 2em;
+                text-shadow: 2px 2px 10px rgba(0,0,0,1);
+                color: rgb(0, 255, 251);
+            }
+            h2{
+                text-align: center;
+                color:rgb(0, 255, 255);
+            }
+            a{
+                color:rgb(0, 225, 255);
+                text-decoration: none;
+            }
+            p:last-child{
+                padding-bottom: 20px;
+            }
+            .go-to-top{
+                position:fixed;
+                bottom: 15px;
+                right: 15px;
+                background: rgb(12, 39, 50);
+                color:rgb(255, 255, 255);
+                padding: 10px 15px;
+                border-radius: 5px;
+                text-decoration: none;
+                font-size: 14px;
+                z-index: 1000;
+            }
+            .go-to-top:hover{
+                background:#4e0444;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Venus</h1>
+        <div style="text-align:center;">
+            <img src="Venus.png" alt="Sun" width="900" height=auto>
+        </div>
+        <p>
+            Venus, often called Earth’s twin, is similar in size and structure to our planet but vastly different in other ways. It’s the 
+            hottest planet in the Solar System, with surface temperatures exceeding 470°C, hot enough to melt lead. This extreme heat is due 
+            to a runaway greenhouse effect caused by its thick atmosphere of carbon dioxide.
+        </p>
+        <p>
+            The planet’s surface is covered with vast plains, volcanic mountains, and craters. Venus rotates backward (retrograde rotation) 
+            compared to most planets, so the Sun rises in the west and sets in the east.
+        </p>
+        <h2>Formation and Structure of Venus</h2>
+        <p>
+            Venus formed from a similar process to Earth but experienced a divergent evolution due to its closer proximity to the Sun. Its thick 
+            atmosphere traps heat, leading to its runaway greenhouse effect. Venus has:
+            <ul>
+                <li><strong>Core:</strong> Metallic, likely iron-nickel.</li>
+                <li><strong>Mantle:</strong> Rocky, driving volcanic activity.</li>
+                <li><strong>Crust:</strong> Thin, with few tectonic features.</li>
+            </ul>
+        </p>
+        <h2>Significance</h2>
+        <p>
+            Venus’s atmosphere provides a natural laboratory for understanding climate change and atmospheric science.
+        </p>
+        <h2>Fun Facts</h2>
+        <ul>
+            <li>A day on Venus is longer than its year: it takes 243 Earth days to rotate once on its axis and only 225 Earth days to orbit the Sun.</li>
+            <li>Venus has no moons or rings.</li>
+            <li>The clouds of Venus are made of sulfuric acid, and its surface pressure is 92 times that of Earth.</li>
+        </ul>
+        <p ><a href="index.html">Go to Home</a></p>
+        <a href = "#top" class ="go-to-top">Go to Top</a>
+    </body>
+</html>
+  

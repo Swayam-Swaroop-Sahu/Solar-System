@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>     
+        <title>Earth</title>
+        <style>
+            body{           
+                font-size: 23px;
+                color: rgb(255, 255, 255);
+                height: 100vh;
+                margin: 50px;
+                background: url(Earthbg.png),no-repeat center center;
+                background-size: cover;
+                animation: moveBackground 60s linear infinite;
+            }
+            @keyframes moveBackground{
+                0%{
+                    background-position: 0 0;
+                }
+                100%{
+                    background-position: 100% 100%;
+                }
+            }
+            h1{
+                text-align: center;
+                margin-top: 5%;
+                font-size: 2em;
+                text-shadow: 2px 2px 10px rgba(0,0,0,1);
+                color: rgb(0, 217, 255);
+            }
+            h2{
+                text-align: center;
+                color:rgb(0, 242, 255);
+            }
+            a{
+                color:rgb(0, 225, 255);
+                text-decoration: none;
+            }
+            p:last-child{
+                padding-bottom: 20px;
+            }
+            .go-to-top{
+                position:fixed;
+                bottom: 15px;
+                right: 15px;
+                background: rgb(0, 0, 0);
+                color:rgb(255, 255, 255);
+                padding: 10px 15px;
+                border-radius: 5px;
+                text-decoration: none;
+                font-size: 14px;
+                z-index: 1000;
+            }
+            .go-to-top:hover{
+                background:#051c46;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Earth</h1>
+        <div style="text-align:center;">
+            <img src="Earth.png" alt="Sun" width="500" height=auto>
+        </div>
+        <p>
+            Earth, our home planet, is the only world in the universe known to support life. Its unique combination of liquid water, an oxygen-rich atmosphere, 
+            and a protective magnetic field makes it habitable. About 71% of Earth’s surface is covered by oceans, and its atmosphere is composed of 78% nitrogen, 
+            21% oxygen, and trace gases like carbon dioxide.
+        </p>
+        <p>
+            Earth’s interior is dynamic, with a molten core that generates its magnetic field, protecting us from harmful solar radiation. Plate tectonics shape its 
+            surface, creating mountains, valleys, and earthquakes.
+        </p>
+        <h2>Formation and Structure of Earth</h2>
+        <p>
+            Earth formed in the Sun’s habitable zone, allowing liquid water to exist. Its differentiated structure includes:
+            <ul>
+                <li><strong>Core:</strong> Iron and nickel, generating a protective magnetic field.</li>
+                <li><strong>Mantle:</strong> Silicate materials driving plate tectonics.</li>
+                <li><strong>Crust:</strong> Diverse terrains, from oceans to mountains.</li>
+            </ul>
+        </p>
+        <h2>Significance</h2>
+        <p>
+            Earth’s dynamic geology and favorable position support life, making it a unique gem in the Solar System.
+        </p>
+        <h2>Fun Facts</h2>
+        <ul>
+            <li>Earth is not a perfect sphere; it’s slightly flattened at the poles and bulges at the equator.</li>
+            <li>The planet’s rotation is gradually slowing down by about 1.7 milliseconds per century.</li>
+            <li>Earth’s moon is the fifth-largest natural satellite in the Solar System and plays a crucial role in stabilizing the planet’s tilt and climate.</li>
+        </ul>
+        <p ><a href="index.html">Go to Home</a></p>
+        <a href = "#top" class ="go-to-top">Go to Top</a>
+    </body>
+</html>
+  
